@@ -1,0 +1,138 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 13pt;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 98%;
+  height:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left, .right {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-link{
+  padding-left: 30px;
+}
+
+a {
+  font-size: 13px;
+  color: #757575;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+ input {
+   height: 20px;
+   min-width: 584px;
+   margin-top: 20px;
+   padding: 15px;
+   box-shadow: 0px 2px 2px #DCDCDC;
+   border-style: none;
+ }
+
+input:hover, input:focus {
+  box-shadow: 0px 3px 3px #C0C0C0;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  font-weight: bold;
+  height: 35px;
+  padding: 10px;
+  margin-top: 40px;
+  background: #f2f2f2;
+  color: #757575;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  color: #222;
+  border: 1px solid #999;
+}
+
+.icon {
+  margin-left: 20px;
+}
+.userTools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.appLink:hover {
+  color: #222;
+}
+
+.micspan {
+    margin-left: 550px;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+    color: #4885ed;
+}
+#notification {
+  background: #757575;
+  color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#notification:hover {
+  background: #222;
+}
+
+#profile {
+  background: #222;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14pt;
+  color: #fff;
+}
+
+a #profile:hover {
+  text-decoration: none;
+}
+img {
+  margin-top: 100px;
+  max-width: 500px;
+  display: block;
+}
